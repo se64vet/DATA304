@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vu's Profile</title>
+    <style>
+        body {
+           height: 100vh;
+           width: 100vw;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           gap: 2em;
+        }
+        table {
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #d2b48c; /* Light brown color */
+            color: black;
+            padding: 10px;
+            border: 1px solid #000; /* Border for header */
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #000; /* Border for table cells */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Light gray for even rows */
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff; /* White for odd rows */
+        }
+
+        table, th, td {
+            border: 1px solid black; /* Table and cell borders */
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; padding: 0; margin: 0;">
+        <p>Vu Mai</p>
+        <p style="font-size: .5em; font-style: italic; color: gray;">he/him</p>
+    </h1>
+
+    <!-- rounded profile picture -->
+    <img src="../../../src/IMG_7121.JPG" 
+        alt="Profile Image" 
+        width="200" 
+        height="200" 
+        style="border-radius: 50%; object-fit: cover;">
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Favorite</th>
+        </tr>
+        <tr>
+            <td>Movie Genre</td>
+            <td>Science Fiction</td>
+        </tr>
+        <tr>
+            <td>Color</td>
+            <td>Dark Gray</td>
+        </tr>
+        <tr>
+            <td>Cuisine</td>
+            <td>Japanese</td>
+        </tr>
+    </table>
+</body>
+</html>
