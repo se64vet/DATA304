@@ -1,11 +1,5 @@
+In this assignment, you graduate to full on data-wrangler. A customer provided me (your very unhelpful boss), with "all of the data you will need to understand why the server went down." Now I'm passing it off to you to figure out!
 
-In this assignment, you will normalize a dataframe of scraped data from **First Normal Form (1NF)** to **Third Normal Form (3NF)** and save the resulting tables into a **SQLite database**. You will submit your completed assignment by saving the database file in the specified directory and updating your Git repository.  
+The customer's web server blew up and they had some very weird logging solution. They think they were attacked and we will see a strange pattern in the data if we can just fix it and visualize it.
 
-1. **Given Data**: You will start with all of the html files of your classmates' introductions. I suggest starting by gathering all tabular data into a 1NF dataframe with columns *first_name* (str), *last_name* (str), *category* (str), *favorite* (str).
-2. **Normalization Task**: You will transform this data into two tables, each in **Third Normal Form (3NF)**.
-3. **Write to SQLite**: You will store these two tables in a SQLite database file.
-4. **Submission**: Save the SQLite file to *data/assignment_4/altered/class_info.sqlite3* and update your Git repository.
-
-Your final sqlite database should have the following table:column structure:
-*students*: *name_id* (int pk), *first_name* (str), *last_name* (str)
-*favorites*: *name_id* (fk), *category* (str), *favorite* (str)
+For this assignment, please submit a matplotlib or plotly line graph, visualizing what happened to our client's web server.
